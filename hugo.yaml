@@ -2,6 +2,7 @@
 baseURL: "https://seosuwon7364-byte.github.io/kbo-team-analytics/"
 languageCode: "ko-kr"
 title: "KBO TEAM ANALYTICS"
+theme: "template"
 
 defaultContentLanguage: "ko"
 defaultContentLanguageInSubdir: false
