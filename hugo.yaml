@@ -30,6 +30,19 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+	menus:
+  main:
+    - identifier: team-analysis
+      name: TEAM ANALYSIS
+      title: KBO 10개 구단 전력 분석
+      url: /team-analysis/
+      weight: 1
+
+    - identifier: game-analysis
+      name: GAME ANALYSIS
+      title: KBO 경기 데이터 분석
+      url: /game-analysis/
+      weight: 2
 
 params:
   title: "KBO TEAM ANALYTICS"
