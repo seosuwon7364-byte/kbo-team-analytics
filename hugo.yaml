@@ -49,7 +49,7 @@ menus:
 params:
   title: "KBO TEAM ANALYTICS"
   description: "KBO 10개 구단의 팀 성적과 경기 데이터를 분석하는 야구 데이터 분석 포트폴리오"
-  favicon: "/fav.png"
+  favicon: "https://seosuwon7364-byte.github.io/kbo-team-analytics/fav.png"
   useBootstrapCDN: false
   mathjax: false
   animate: true
@@ -111,7 +111,7 @@ params:
   about:
     enable: true
     title: "ABOUT ME"
-    image: "/images/me.png"
+    image: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/me.png"
     content: |-
       컴퓨터인공지능학부에 재학 중이며, 데이터 분석과 야구에 관심을 가지고 있습니다.
 
