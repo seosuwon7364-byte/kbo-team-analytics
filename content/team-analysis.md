@@ -1,6 +1,4 @@
-
-
-\---
+---
 
 title: "TEAM ANALYSIS"
 
@@ -8,15 +6,9 @@ date: 2026-11-02
 
 draft: false
 
-tags:
+tags: ["KBO", "Team Analysis", "Baseball"]
 
-&#x20; - KBO
-
-&#x20; - 팀 분석
-
-&#x20; - 야구 데이터
-
-\---
+---
 
 
 
@@ -94,11 +86,5 @@ Python, Pandas, Matplotlib
 
 
 
-<blockquote>
-
-현재 분석 페이지는 프로젝트 계획 단계입니다. 실제 데이터를 수집하고 분석한 결과는 프로젝트 진행 후 추가할 예정입니다.
-
-</blockquote>
-
-
+> 현재 분석 페이지는 프로젝트 계획 단계입니다. 실제 데이터를 수집하고 분석한 결과는 프로젝트 진행 후 추가할 예정입니다.
 
