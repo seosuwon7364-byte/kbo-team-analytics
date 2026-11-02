@@ -30,7 +30,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-	menus:
+
+menus:
   main:
     - identifier: team-analysis
       name: TEAM ANALYSIS
