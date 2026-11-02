@@ -98,7 +98,7 @@ params:
     title: "KBO TEAM ANALYTICS"
     subtitle: "야구 데이터를 분석하고 전력을 읽다"
     content: "KBO 10개 구단의 타격, 투수, 수비 지표와 경기 데이터를 분석합니다. 데이터에 기반한 야구 분석과 전력 평가를 목표로 하는 포트폴리오입니다."
-    image: "/images/baseball-stadium.png"
+    image: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/baseball-stadium.png"
     bottomImage:
       enable: true
     button:
