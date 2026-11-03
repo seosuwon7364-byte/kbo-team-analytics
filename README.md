@@ -230,3 +230,131 @@ main 브랜치에 변경 사항을 push하면 GitHub Actions가 Hugo 사이트�
 
 
 
+
+
+\## 7. 주요 파일 및 수정 위치
+
+
+
+웹사이트의 주요 설정과 콘텐츠는 다음 파일에서 관리합니다.
+
+
+
+| 파일 및 폴더 | 역할 |
+
+|---|---|
+
+| `hugo.yaml` | 사이트 제목, 메뉴, 자기소개, 프로젝트 설정 |
+
+| `content/team-analysis.md` | KBO 10개 구단 전력 분석 소개 |
+
+| `content/game-analysis.md` | KBO 경기 흐름 분석 소개 |
+
+| `static/style.css` | 글씨체, 카드 디자인, 반응형 CSS |
+
+| `static/images/` | 홈페이지 및 프로젝트 이미지 |
+
+| `themes/template/` | Hugo 테마 파일 |
+
+| `.github/workflows/hugo.yaml` | GitHub Actions 자동 배포 설정 |
+
+
+
+사이트 내용을 수정할 때는 해당 파일을 편집하고 저장합니다.
+
+
+
+\## 8. 수정 사항 배포 방법
+
+
+
+\### 1. 변경 파일 확인
+
+
+
+```powershell
+
+git status
+
+```
+
+
+
+\### 2. 변경 사항 커밋
+
+
+
+수정한 파일만 지정해서 추가합니다.
+
+
+
+```powershell
+
+git add README.md
+
+git commit -m "Update project documentation"
+
+```
+
+
+
+실제 작업에서는 변경 내용에 맞게 파일 이름과 커밋 메시지를 수정합니다.
+
+
+
+\### 3. GitHub에 업로드
+
+
+
+```powershell
+
+git push origin main
+
+```
+
+
+
+\### 4. GitHub Actions 확인
+
+
+
+다음 주소에서 가장 최근 워크플로 실행을 확인합니다.
+
+
+
+https://github.com/seosuwon7364-byte/kbo-team-analytics/actions
+
+
+
+\- Build 작업 성공 여부 확인
+
+\- Deploy 작업 성공 여부 확인
+
+\- 실패 시 실행 로그를 통해 오류 확인
+
+
+
+\### 5. 공개 사이트 확인
+
+
+
+https://seosuwon7364-byte.github.io/kbo-team-analytics/
+
+
+
+브라우저에서 Ctrl + Shift + R로 새로고침한 뒤 다음 항목을 확인합니다.
+
+
+
+\- 수정한 내용이 반영되는지
+
+\- 이미지가 정상적으로 표시되는지
+
+\- TEAM ANALYSIS와 GAME ANALYSIS 페이지가 열리는지
+
+\- 모바일 화면에서 레이아웃이 깨지지 않는지
+
+
+
+최종 제출 시에는 GitHub의 main 브랜치에 있는 커밋과 GitHub Actions 배포 결과가 일치하는지 확인합니다.
+
