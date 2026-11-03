@@ -28,3 +28,24 @@ textarea,
 select {
     font-family: 'Pretendard', sans-serif !important;
 }
+
+/* PROJECTS 카드 제목 디자인 */
+#projects .card .card-title {
+    font-family: 'Pretendard', sans-serif !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 12px !important;
+    margin-bottom: 12px;
+    letter-spacing: -0.3px;
+}
+
+/* PROJECTS 카드 설명 디자인 */
+#projects .card .card-text {
+    font-family: 'Pretendard', sans-serif !important;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: -0.2px;
+    word-break: keep-all;
+}
