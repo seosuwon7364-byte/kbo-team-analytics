@@ -49,7 +49,7 @@ params:
   title: "KBO TEAM ANALYTICS"
   customCSS: true
   description: "KBO 10개 구단의 팀 성적과 경기 데이터를 분석하는 야구 데이터 분석 포트폴리오"
-  favicon: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/baseball-logo.png"
+  favicon: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/baseball-logo-square.png"
   useBootstrapCDN: false
   mathjax: false
   animate: true
@@ -79,7 +79,7 @@ params:
   navbar:
     align: ms-auto
     brandName: "KBO TEAM ANALYTICS"
-    brandLogo: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/baseball-logo.png"
+    brandLogo: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/baseball-logo-square.png"
     disableSearch: true
     stickyNavBar:
       enable: true
