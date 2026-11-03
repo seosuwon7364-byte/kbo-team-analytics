@@ -75,3 +75,16 @@ select {
         transform: none;
     }
 }
+
+/* PROJECTS 이미지 크기 및 비율 통일 */
+#projects .card .card-head {
+    overflow: hidden;
+    background-color: #101C2C;
+}
+
+#projects .card .card-img-top {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    display: block;
+}
