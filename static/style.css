@@ -19,3 +19,12 @@
     font-weight: 400;
     line-height: 1.7;
 }
+
+/* Apply Pretendard font across the website */
+body,
+button,
+input,
+textarea,
+select {
+    font-family: 'Pretendard', sans-serif !important;
+}
