@@ -358,3 +358,103 @@ https://seosuwon7364-byte.github.io/kbo-team-analytics/
 
 최종 제출 시에는 GitHub의 main 브랜치에 있는 커밋과 GitHub Actions 배포 결과가 일치하는지 확인합니다.
 
+
+
+
+
+\## 9. 사용 자료 및 출처
+
+
+
+\### 9.1 Hugo 테마
+
+
+
+\- 테마 이름: Hugo Profile
+
+\- 제작자: Gurusabarish
+
+\- 원본 저장소: https://github.com/gurusabarish/hugo-profile
+
+\- 테마 소개: https://themes.gohugo.io/themes/hugo-profile/
+
+\- 라이선스: MIT
+
+
+
+Hugo Profile 테마를 기반으로 사이트의 구성, 색상, 콘텐츠 및 CSS를 수정했습니다. 원본 테마의 저작권 및 라이선스 고지를 유지합니다.
+
+
+
+\### 9.2 AI 생성 이미지
+
+
+
+홈페이지 및 프로젝트 소개에 ChatGPT 이미지 생성 기능을 활용했습니다.
+
+
+
+| 파일 | 사용 위치 |
+
+|---|---|
+
+| `static/images/baseball-stadium.png` | 메인 화면 야구장 이미지 |
+
+| `static/images/projects/kbo-team-logos.png` | KBO 구단 전력 비교 프로젝트 |
+
+| `static/images/projects/kbo-game-analysis.png` | KBO 경기 흐름 분석 프로젝트 |
+
+| `static/images/projects/kbo-winrate-analysis.png` | 팀 득점과 승률 분석 프로젝트 |
+
+
+
+위 이미지들은 포트폴리오 디자인과 프로젝트 주제 소개를 위해 AI로 생성한 시각 자료입니다.
+
+
+
+이미지 속 구단 로고와 통계 수치는 실제 공식 자료와 다를 수 있으며, 실제 분석 결과나 공식 KBO 자료를 의미하지 않습니다.
+
+
+
+\### 9.3 웹폰트
+
+
+
+\- 글꼴: Pretendard
+
+\- 제작 및 배포: ORIONCactus
+
+\- 원본 저장소: https://github.com/orioncactus/pretendard
+
+
+
+프로젝트 카드와 홈페이지 본문의 가독성을 높이기 위해 사용했습니다.
+
+
+
+\### 9.4 AI 활용 범위
+
+
+
+ChatGPT를 다음 작업에 활용했습니다.
+
+
+
+\- Hugo 및 GitHub Actions 설정 방법 확인
+
+\- YAML 문법과 이미지 경로 오류 해결
+
+\- 홈페이지 디자인 개선
+
+\- HTML/CSS 코드 작성 지원
+
+\- 프로젝트 소개 문장 정리
+
+\- 프로젝트 이미지 생성
+
+
+
+제안된 설정과 코드는 실제 프로젝트에 적용하고, GitHub Actions 및 공개 홈페이지에서 동작을 확인하는 방식으로 검증했습니다.
+
+
+
