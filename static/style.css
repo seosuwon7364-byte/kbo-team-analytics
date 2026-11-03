@@ -88,3 +88,36 @@ select {
     object-fit: contain;
     display: block;
 }
+
+/* 모바일 PROJECTS 카드 반응형 디자인 */
+@media (max-width: 767px) {
+
+    #projects .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #projects .card {
+        margin-top: 8px !important;
+        margin-bottom: 20px !important;
+        border-radius: 14px;
+    }
+
+    #projects .card .card-body {
+        padding: 20px !important;
+    }
+
+    #projects .card .card-title {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    #projects .card .card-text {
+        font-size: 0.9rem;
+        line-height: 1.7;
+    }
+
+    #projects .card .badge {
+        font-size: 0.75rem;
+    }
+}
