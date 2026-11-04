@@ -210,3 +210,30 @@ body.dark a:focus-visible {
     word-break: keep-all;
     overflow-wrap: break-word;
 }
+
+/* PC 메인 화면 글씨 크기 및 정렬 */
+@media (min-width: 1200px) {
+    #hero h2 {
+        font-size: 2.6rem !important;
+        line-height: 1.35;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
+    #hero .hero-content {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        word-break: keep-all;
+    }
+
+    #hero .desktop-break {
+        display: inline;
+    }
+}
+
+/* 모바일과 태블릿에서는 자동 줄바꿈 */
+@media (max-width: 1199px) {
+    #hero .desktop-break {
+        display: none;
+    }
+}
