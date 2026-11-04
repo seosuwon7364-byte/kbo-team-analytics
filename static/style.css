@@ -170,3 +170,15 @@ select {
     font-size: 0.9rem;
     font-weight: 600;
 }
+
+/* 다크 모드 버튼 키보드 포커스 표시 */
+#theme-toggle:focus-visible {
+    outline: 3px solid #2563eb !important;
+    outline-offset: 4px;
+    border-radius: 6px;
+}
+
+/* 다크 모드에서도 잘 보이도록 설정 */
+body.dark #theme-toggle:focus-visible {
+    outline-color: #93c5fd !important;
+}
