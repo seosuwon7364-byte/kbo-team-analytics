@@ -182,3 +182,15 @@ select {
 body.dark #theme-toggle:focus-visible {
     outline-color: #93c5fd !important;
 }
+
+/* 모든 링크의 키보드 포커스 표시 */
+a:focus-visible {
+    outline: 3px solid #2563eb !important;
+    outline-offset: 4px;
+    border-radius: 8px;
+}
+
+/* 다크 모드에서 포커스 표시 */
+body.dark a:focus-visible {
+    outline-color: #93c5fd !important;
+}
