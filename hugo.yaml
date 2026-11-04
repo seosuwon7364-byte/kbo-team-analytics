@@ -254,6 +254,7 @@ params:
       - title: "KBO 10개 구단 전력 비교 분석 (진행 예정)"
         content: "KBO 10개 구단의 타격, 투수, 수비 지표를 활용해 팀별 전력을 비교하고 주요 지표의 차이를 분석하는 프로젝트입니다."
         image: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/projects/kbo-team-logos.png"
+        alt: "KBO 10개 구단을 상징하는 로고를 배치한 전력 비교 프로젝트 소개 이미지"
         badges:
           - "Python"
           - "Pandas"
@@ -262,6 +263,7 @@ params:
       - title: "KBO 경기 흐름 분석 (진행 예정)"
         content: "이닝별 득점, 홈·원정 경기 결과, 선취점과 승리의 관계 등을 분석해 경기 흐름의 특징을 살펴보는 프로젝트입니다."
         image: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/projects/kbo-game-analysis.png"
+        alt: "야구 경기 장면과 이닝별 득점 그래프를 표현한 프로젝트 소개 이미지"
         badges:
           - "Python"
           - "Matplotlib"
@@ -270,6 +272,7 @@ params:
       - title: "팀 득점과 승률의 관계 분석 (진행 예정)"
         content: "팀별 득점과 실점, 득실 차이 등의 지표와 최종 승률 사이의 관계를 분석하는 프로젝트입니다."
         image: "https://seosuwon7364-byte.github.io/kbo-team-analytics/images/projects/kbo-winrate-analysis.png"
+        alt: "팀 득점과 승률의 관계를 예시 그래프로 시각화한 프로젝트 소개 이미지"
         badges:
           - "Statistics"
           - "Python"
