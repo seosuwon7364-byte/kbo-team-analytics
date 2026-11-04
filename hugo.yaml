@@ -250,6 +250,7 @@ params:
 
   projects:
     enable: true
+    title: "PROJECTS"
     items:
       - title: "KBO 10개 구단 전력 비교 분석 (진행 예정)"
         content: "KBO 10개 구단의 타격, 투수, 수비 지표를 활용해 팀별 전력을 비교하고 주요 지표의 차이를 분석하는 프로젝트입니다."
