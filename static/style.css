@@ -194,3 +194,19 @@ a:focus-visible {
 body.dark a:focus-visible {
     outline-color: #93c5fd !important;
 }
+
+/* 메인 화면 제목과 줄바꿈 개선 */
+#hero h1 {
+    font-size: clamp(2.5rem, 4.5vw, 4.5rem) !important;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+}
+
+/* 한국어 슬로건 */
+#hero h2 {
+    font-size: clamp(1.5rem, 2.3vw, 2.2rem) !important;
+    line-height: 1.4;
+    letter-spacing: -0.03em;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
